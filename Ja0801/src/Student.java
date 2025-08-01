@@ -92,8 +92,8 @@ public class Student {
 		return this.stuNo == ((Student)obj).stuNo && this.name == ((Student)obj).name;
 	}
 	
-	@Override
-	public String toString() {
-		return stuNo+" "+name;
-	}
+//	@Override
+//	public String toString() {
+//		return stuNo+" "+name;
+//	}
 }

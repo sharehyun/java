@@ -5,6 +5,15 @@ public class Person {
 	String address;  //주소
 	
 	Person(){}
+	Person(long id){
+		this.id = id;
+	}
+	
+	Person(long id, String name){
+		this.id = id;
+		this.name = name;
+	}
+	
 	Person(long id, String name, String address){
 		this.id = id;
 		this.name = name;
